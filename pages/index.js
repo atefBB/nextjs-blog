@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -10,22 +10,22 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+	  Welcome to My Blog!
+	</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/posts/first-post" className="card">
+            <h3>First Post &rarr;</h3>
+            <p>lorem opsi vosul korl tasin.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/posts/seconpost" className="card">
+            <h3>Second Post &rarr;</h3>
+            <p>Learn about it in an interactive course with quizzes!</p>
           </a>
 
           <a
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
+      {/*<footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -57,7 +57,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
-      </footer>
+      </footer>*/}
 
       <style jsx>{`
         .container {
